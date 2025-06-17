@@ -1,4 +1,3 @@
-# python -m PyQt6.uic.pyuic -x src/ui/playerWindow.ui -o src/ui/playerWindow.py
 import src
 from src import core
 from src.utils import fileUtils
