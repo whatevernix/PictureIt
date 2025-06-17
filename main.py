@@ -1,6 +1,4 @@
-import src
 from src import core
-from src.utils import fileUtils
 from src.ui import playerWindow
 from PyQt6.QtWidgets import (
     QWidget,
@@ -12,8 +10,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtGui import QPixmap, QColor, QImage, QIcon
 from PyQt6 import QtCore, QtWidgets
 from PyQt6.QtCore import pyqtSignal, QPropertyAnimation, QParallelAnimationGroup
-import sys, os, time, threading
-
+import sys, time, threading
 
 
 class MainWindow(QMainWindow):
