@@ -1,4 +1,3 @@
-# python -m PyQt6.uic.pyuic -x src/ui/playerWindow.ui -o src/ui/playerWindow.py
 import src
 from src import core
 from src.utils import fileUtils
@@ -14,6 +13,7 @@ from PyQt6.QtGui import QPixmap, QColor, QImage, QIcon
 from PyQt6 import QtCore, QtWidgets
 from PyQt6.QtCore import pyqtSignal, QPropertyAnimation, QParallelAnimationGroup
 import sys, os, time, threading
+
 
 
 class MainWindow(QMainWindow):
