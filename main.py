@@ -15,6 +15,7 @@ from PyQt6.QtCore import pyqtSignal, QPropertyAnimation, QParallelAnimationGroup
 import sys, os, time, threading
 
 
+
 class MainWindow(QMainWindow):
     frame_changed_signal = pyqtSignal(object)
     image_loaded_signal = pyqtSignal(object)
